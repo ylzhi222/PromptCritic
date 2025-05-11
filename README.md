@@ -132,15 +132,6 @@ model = BertForSequenceClassification.from_pretrained("models/bert-critic-1.0")
 
 ---
 
-## 📌 未来计划
-
-* [ ] Streamlit 网页演示（LLM + Critic 互动）
-* [ ] 借助 GPT 反馈循环的标注辅助
-* [ ] 扩展至多语言回答或 GPT-4 输出
-* [ ] 基于回归的细粒度评分
-
----
-
 ## 🙏 致谢
 
 * 感谢 [OpenBMB](https://github.com/OpenBMB) 提供 UltraFeedback 数据集
