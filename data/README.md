@@ -8,5 +8,5 @@ python scripts/convert_ultrafeedback.py --split train --out_csv data/ultrafeedba
 #从UltraFeedback数据集中取出6000条平衡数据
 python scripts/small_sample.py
 
-注：如果你想使用和我一样的数据可以到以下链接下载：
-https://github.com/ylzhi222/PromptCritic/issues/1
+注：如果你想使用和我一样的数据可以[点击](https://github.com/ylzhi222/PromptCritic/issues/1)
+下载。
