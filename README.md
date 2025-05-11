@@ -37,7 +37,7 @@ Final label:
 
 PromptCritic/
 ├── data/
-│   └── 6000.csv                   # Final balanced dataset (2000 per class)
+│   └── README.md                 # Final balanced dataset (2000 per class)
 ├── models/
 │   └── bert-critic-1.0/          # Final saved model (HuggingFace format)
 ├── scripts/
