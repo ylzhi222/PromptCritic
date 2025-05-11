@@ -1,0 +1,43 @@
+# 忽略所有数据和模型目录
+data/
+!data/README.md
+models/*
+
+# 保留最终训练集和模型
+!data/6000.csv
+!models/bert-critic-1.0/
+!models/bert-critic-1.0/**
+
+# 忽略 ShareGPT 旧脚本
+scripts/ShareGPT/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------- Python byte-code / cache ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---------- Virtual env ----------
+.env/
+.venv/
+env/
+venv/
+
+# ---------- OS & IDE ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Logs / temp ----------
+*.log
+*.tmp
+*.bak
