@@ -141,12 +141,6 @@ model = BertForSequenceClassification.from_pretrained("models/bert-critic-1.0")
 
 ---
 
-## 📜 许可证
-
-本项目遵循 MIT 协议发布。详情请见 `LICENSE` 文件。
-
----
-
 ## 🙏 致谢
 
 * 感谢 [OpenBMB](https://github.com/OpenBMB) 提供 UltraFeedback 数据集
