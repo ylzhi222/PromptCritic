@@ -4,7 +4,6 @@ data/
 models/*
 
 # 保留最终训练集和模型
-!data/6000.csv
 !models/bert-critic-1.0/
 !models/bert-critic-1.0/**
 
