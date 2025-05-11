@@ -1,5 +1,5 @@
 # 忽略所有数据和模型目录
-data/
+data/*
 !data/README.md
 models/*
 
